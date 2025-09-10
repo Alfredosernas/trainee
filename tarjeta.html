@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarjeta de Presentación Digital</title>
+  <style>
+    body {
+      background: #0fd2e8;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(43,88,245,0.15);
+      padding: 2rem;
+      max-width: 340px;
+      text-align: center;
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #2b58f5;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+    .card h1 {
+      color: #1d276b;
+      margin: 0.5rem 0 1rem 0;
+      font-size: 1.6rem;
+    }
+    .interests {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+    .interests li {
+      background: #e3eafd;
+      color: #2561ce;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      padding: 0.3rem 1rem;
+    }
+    .card a {
+      text-decoration: none;
+      color: #fff;
+      background: #e01ce0;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      display: inline-block;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+    .card a:hover {
+      background: #32076a;
+    }
+    .juegos li{
+       background: #e3eafd;
+      color: #2561ce;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      padding: 0.3rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="imagenes/alfredo.jpg" alt="Avatar">
+    <h1>Alfredo López Sernas</h1>
+    <p> Me gusta escuchar musica,practricar en con el piano o la guitarra,jugar videojuegos y ver series.</p>
+    <ul class="interests">
+      <li>Series</li>
+      <li>partituras y mas</li>
+      <li>Videojuegos</li>
+      <li>Escuchar musica </li>
+    </ul>
+    <a href="https://www.youtube.com/watch?v=dx_mbnH0rb4&list=RDdx_mbnH0rb4&start_radio=1" target="_blank" title="te va gustar">¡Esta cancion te va a gustar!</a>
+  </div>
+
+</body>
+</html>
